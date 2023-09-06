@@ -4,7 +4,7 @@ import classes from './event-list.module.css';
 function EventList(props) {
     const { items } = props;
 
-    return 
+    return (
     <ul className={classes.list}>
         {items.map(event => (
         <EventItem 
@@ -17,6 +17,7 @@ function EventList(props) {
         />
     ))}
     </ul>
+    )
 }
 
 export default EventList;
