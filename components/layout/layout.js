@@ -1,4 +1,5 @@
 import {Fragment } from 'react'
+
 import MainHeader from './main-header';
 
 function Layout(props) {
@@ -7,7 +8,6 @@ function Layout(props) {
       <MainHeader />
       <main>{props.children}</main>
     </Fragment>  
-    
   );
 }
 
